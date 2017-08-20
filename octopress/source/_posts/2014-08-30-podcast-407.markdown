@@ -1,0 +1,8 @@
+---
+layout: post
+title: "После РT 407"
+date: 2014-08-30 17:20
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt407post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-407.html) <audio src="http://cdn.radio-t.com/rt407post.mp3" preload="none">

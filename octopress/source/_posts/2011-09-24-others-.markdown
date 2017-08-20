@@ -1,0 +1,7 @@
+---
+layout: post
+title: Сайт пиратов переехал
+date: 2011-09-24 21:11
+comments: true
+categories: others
+---

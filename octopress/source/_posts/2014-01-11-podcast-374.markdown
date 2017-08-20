@@ -1,0 +1,8 @@
+---
+layout: post
+title: "После РT 374"
+date: 2014-01-11 16:27
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt374post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-374.html) <audio src="http://cdn.radio-t.com/rt374post.mp3" preload="none">

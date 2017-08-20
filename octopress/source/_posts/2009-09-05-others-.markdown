@@ -1,0 +1,7 @@
+---
+layout: post
+title: Вопрос ребром
+date: 2009-09-05 12:37
+comments: true
+categories: others
+---

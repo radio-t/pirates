@@ -1,0 +1,8 @@
+---
+layout: post
+title: "После РT 354"
+date: 2013-08-24 19:29
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt354post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-354.html) <audio src="http://cdn.radio-t.com/rt354post.mp3" preload="none">

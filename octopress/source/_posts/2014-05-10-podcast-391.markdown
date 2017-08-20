@@ -1,0 +1,8 @@
+---
+layout: post
+title: "После РT 391"
+date: 2014-05-10 17:39
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt391post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-391.html) <audio src="http://cdn.radio-t.com/rt391post.mp3" preload="none">

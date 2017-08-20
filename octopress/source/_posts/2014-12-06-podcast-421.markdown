@@ -1,0 +1,10 @@
+---
+layout: post
+title: "После РT 421"
+date: 2014-12-06 23:54
+comments: true
+categories: podcast
+filename: rt421post
+---
+[аудио](http://cdn.radio-t.com/rt421post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-421.html)
+<audio src="http://cdn.radio-t.com/rt421post.mp3" preload="none"></audio>

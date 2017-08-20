@@ -1,0 +1,62 @@
+// Here you can easily change your sites's color scheme.
+// To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
+// If you need a handy color picker try http://hslpicker.com
+
+// Main Section Colors
+$main-bg: #202020 !default;
+$page-bg: #252525 !default;
+
+$text-color: #AAA;
+
+$header-bg: #222;
+$subtitle-color: #999;
+$title-color: #aaa;
+$nav-bg: #222;
+//$nav-bg-front: #CCC;
+//$nav-bg-back: #22F;
+$nav-color: #888;
+
+$nav-bg-front: #000;
+$nav-bg-back: #000;
+$nav-border: darken($nav-bg, 15) !default;
+$nav-border-top: darken($nav-bg, 9) !default;
+$nav-border-bottom: darken($nav-bg, 9) !default;
+$nav-border-left: darken($nav-bg, 11) !default;
+$nav-border-right: lighten($nav-bg, 7) !default;
+
+$sidebar-bg: desaturate(#eceff5, 8);
+$sidebar-bg: #202020;
+$sidebar-link-color: saturate(#526f9a, 10);
+//$sidebar-link-color-hover: darken(#7ab662, 9);
+
+$footer-bg: #202020 !default;
+$footer-bg-front: #DDD;
+//$footer-bg-front: image-url('noise.png');
+$footer-bg-back: linear-gradient(lighten($footer-bg, 4), $footer-bg, darken($footer-bg, 9));
+
+/* To use the light Solarized highlighting theme uncomment the following line */
+//$solarized: light;
+
+/* If you want to tweak the Solarized colors you can do that here */
+//$base03:          #002b36; //darkest blue
+//$base02:          #073642; //dark blue
+//$base01:          #586e75; //darkest gray
+//$base00:          #657b83; //dark gray
+//$base0:           #839496; //medium gray
+//$base1:           #93a1a1; //medium light gray
+//$base2:           #eee8d5; //cream
+//$base3:           #fdf6e3; //white
+//$solar-yellow:    #b58900;
+//$solar-orange:    #cb4b16;
+//$solar-red:       #dc322f;
+//$solar-magenta:   #d33682;
+//$solar-violet:    #6c71c4;
+//$solar-blue:      #268bd2;
+//$solar-cyan:      #2aa198;
+//$solar-green:     #859900;
+
+
+/* Non highlighted code colors */
+//$pre-bg: $base03;
+//$pre-border: darken($base02, 5);
+//$pre-color: $base1;

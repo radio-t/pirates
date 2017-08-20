@@ -1,0 +1,8 @@
+---
+layout: post
+title: "После РT 380"
+date: 2014-02-22 16:50
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt380post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-380.html) <audio src="http://cdn.radio-t.com/rt380post.mp3" preload="none">
