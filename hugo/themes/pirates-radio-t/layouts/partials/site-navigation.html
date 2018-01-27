@@ -8,10 +8,9 @@
     {{ end }}
   </ul>
     {{ if $.Site.Params.simple_search }}
-  <form action="{{ $.Site.Params.simple_search }}" method="get">
+  <form id="simpleSearch" action="http://google.com/search/" method="get">
     <fieldset role="search">
-    <input type="hidden" name="q" value="site:{{ $.Site.Params.BaseURL }}">
-    <input class="search" type="text" name="q" results="0" placeholder="Search">
+    <input id="searchInput" class="search" type="text" name="q" results="0" placeholder="Search">
   </fieldset>
     <fieldset class="mobile-nav">
       <select>
@@ -24,6 +23,12 @@
       </select>
     </fieldset>
   </form>
+  <script type="text/javascript">
+    simpleSearch.onsubmit=function(e){
+      e.preventDefault()
+     window.open("https://google.com/search?q=site:pirates.radio-t.com "+searchInput.value,'_blank');
+    }
+  </script>
     {{ end }}
 
 
