@@ -3,8 +3,8 @@
 # ----------------------- #
 
 # baseURL = "http://localhost:1313"
-# baseURL = "http://pirates-dev.rownarts.com/"
-baseURL = "http://pirates.radio-t.com"
+baseURL = "http://pirates-dev.rownarts.com/"
+# baseURL = "http://pirates.radio-t.com"
 languageCode = "ru-ru"
 title = "Пираты Радио-Т - послешоу подкаста"
 theme = "pirates-radio-t"
@@ -14,7 +14,7 @@ rssLimit = "10"
 disqusShortname = "pirates-radio-t"
 
 [permalinks]
-  posts = "/p/:year/:month/:day/:slug/"
+  posts = "/p/:year/:month/:day/:slug"
 
 [params]
 subtitle = "Вы можете услышать тут то, что происходит после сигнала \"запись шоу завершена\""
