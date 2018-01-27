@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 398"
+
+slug: "podcast-398"
+date: 2014-06-28T18:13:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt398post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-398.html) <audio src="http://cdn.radio-t.com/rt398post.mp3" preload="none">

@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 310"
+
+slug: "podcast-310"
+date: 2012-10-13T18:35:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt310post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt310post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-310.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_310) <audio src="http://cdn.radio-t.com/rt310post.mp3" preload="none">

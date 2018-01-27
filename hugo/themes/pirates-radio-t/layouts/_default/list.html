@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div>
+  <article role='article'>
+
+      {{ .Content }}
+
+
+
+
+
+
+    {{ $section := where .Data.Pages "Section" .Section }}
+
+
+
+
+        <header>
+          <h1 class="entry-title">Blog Archive</h1>
+        </header>
+
+
+
+      <div id="blog-archives">
+      {{ range  $section.ByDate.Reverse }}
+
+          <h2>{{ dateFormat "2006" .Date }}</h2>
+
+          {{ partial "archives.html" . }}
+
+      {{ end }}
+      </div>
+
+
+
+
+
+
+
+  {{ template "_internal/pagination.html" . }}
+
+
+
+</article>
+</div>
+{{ end }}

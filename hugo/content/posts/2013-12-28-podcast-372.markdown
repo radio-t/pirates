@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 372"
+
+slug: "podcast-372"
+date: 2013-12-28T16:35:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt372post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-372.html) <audio src="http://cdn.radio-t.com/rt372post.mp3" preload="none">

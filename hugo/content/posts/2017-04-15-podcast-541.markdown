@@ -1,0 +1,12 @@
+---
+
+title: "После РТ 541"
+
+slug: "podcast-541"
+date: 2017-04-15T18:23:00+03:00
+comments: true
+categories: podcast
+filename: rt541post
+---
+[аудио](http://cdn.radio-t.com/rt541post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-541.html)
+<audio src="http://cdn.radio-t.com/rt541post.mp3" preload="none"/>

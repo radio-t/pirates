@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 366"
+
+slug: "podcast-366"
+date: 2013-11-16T16:53:00+03:00
+comments: true
+categories: podcast 
+---
+[аудио](http://cdn.radio-t.com/rt366post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-366.html) <audio src="http://cdn.radio-t.com/rt366post.mp3" preload="none">

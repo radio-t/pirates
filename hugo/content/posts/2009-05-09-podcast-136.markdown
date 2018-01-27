@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 136"
+
+slug: "podcast-136"
+date: 2009-05-09T20:26:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt136post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt136post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-136.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_136)<audio src="http://cdn.radio-t.com/rt136post.mp3" preload="none">

@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 343"
+
+slug: "podcast-343"
+date: 2013-06-01T18:29:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt343post.mp3) ● [пиратский torrent](/torrents/rt343post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-343.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_343) <audio src="http://cdn.radio-t.com/rt343post.mp3" preload="none">

@@ -1,0 +1,14 @@
+---
+
+title: "После РТ 490"
+
+slug: "podcast-490"
+date: 2016-04-02T20:38:00+03:00
+comments: true
+filename: rt490post
+categories: podcast
+---
+
+[аудио](http://cdn.radio-t.com/rt490post.mp3) ● [лог чата ](http://chat.radio-t.com/logs/radio-t-490.html)
+<audio src="http://cdn.radio-t.com/rt490post.mp3" preload="none"></audio>
+

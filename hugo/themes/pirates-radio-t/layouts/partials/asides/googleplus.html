@@ -1,0 +1,10 @@
+{{ if $.Site.Params.googleplus_user }}
+<section class="googleplus{{ if $.Site.Params.googleplus_hidden }} googleplus-hidden{{ end }}">
+  <h1>
+    <a href="https://plus.google.com/{{ $.Site.Params.googleplus_user }}?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+{{ end }}

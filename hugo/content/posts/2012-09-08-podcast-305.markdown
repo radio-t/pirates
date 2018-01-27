@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 305"
+
+slug: "podcast-305"
+date: 2012-09-08T17:51:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt305post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt305post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-305.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_305) <audio src="http://cdn.radio-t.com/rt305post.mp3" preload="none">

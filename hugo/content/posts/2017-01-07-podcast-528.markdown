@@ -1,0 +1,13 @@
+---
+
+title: "После РТ 528"
+
+slug: "podcast-528"
+date: 2017-01-07T16:59:00+03:00
+comments: true
+categories: podcast
+filename: rt528post
+---
+[аудио](http://cdn.radio-t.com/rt528post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-528.html)
+<audio src="http://cdn.radio-t.com/rt528post.mp3" preload="none"/>
+

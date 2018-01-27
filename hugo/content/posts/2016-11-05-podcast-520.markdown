@@ -1,0 +1,13 @@
+---
+
+title: "После РТ 520"
+
+slug: "podcast-520"
+date: 2016-11-05T18:05:00+03:00
+comments: true
+categories: podcast
+filename: rt520post
+---
+[аудио](http://cdn.radio-t.com/rt520post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-520.html)
+<audio src="http://cdn.radio-t.com/rt520post.mp3" preload="none"/>
+

@@ -1,0 +1,19 @@
+
+
+<article>
+
+      <h1><a href="{{ .Permalink }}">{{.Title}}</a></h1>
+      <time datetime="{{ dateFormat "2006-01-02T13:59:59+00:00" .Date }}" pubdate>
+
+
+      <span class='month'>{{ dateFormat "Jan" .Date }}</span>
+      <span class='day'>{{ dateFormat "2" .Date }}</span>
+      <span class='year'>{{ dateFormat "2006" .Date }}</span>
+
+      </time>
+
+      <footer>
+        <span class="categories">posted in <a href="/{{ .Section | urlize }}/">podcasts</a></span>
+      </footer>
+
+  </article>

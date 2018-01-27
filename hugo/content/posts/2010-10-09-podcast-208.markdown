@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 208"
+
+slug: "podcast-208"
+date: 2010-10-09T15:55:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt208post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt208post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-208.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_208)<audio src="http://cdn.radio-t.com/rt208post.mp3" preload="none">
