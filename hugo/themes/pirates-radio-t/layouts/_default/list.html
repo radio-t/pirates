@@ -21,13 +21,12 @@
 
 
       <div id="blog-archives">
-      {{ range  $section.ByDate.Reverse }}
-
-          <h2>{{ dateFormat "2006" .Date }}</h2>
-
-          {{ partial "archives.html" . }}
-
+ {{ range (.Data.Pages.GroupByDate "2006") }}
+   <h2>{{ .Key }}</h2>
+      {{ range .Pages }}
+        {{ partial "archives.html" . }}
       {{ end }}
+  {{ end }}
       </div>
 
 
