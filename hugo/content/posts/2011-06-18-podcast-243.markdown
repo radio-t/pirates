@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 243"
+
+slug: "podcast-243"
+date: 2011-06-18T12:55:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt243post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt243post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-243.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_243)<audio src="http://cdn.radio-t.com/rt243post.mp3" preload="none">

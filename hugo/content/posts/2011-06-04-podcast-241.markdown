@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 241"
+
+slug: "podcast-241"
+date: 2011-06-04T13:07:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt241post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt241post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-241.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_241)<audio src="http://cdn.radio-t.com/rt241post.mp3" preload="none">

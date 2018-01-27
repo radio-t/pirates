@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 139"
+
+slug: "podcast-139"
+date: 2009-06-06T18:17:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt139post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt139post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-139.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_139)<audio src="http://cdn.radio-t.com/rt139post.mp3" preload="none">

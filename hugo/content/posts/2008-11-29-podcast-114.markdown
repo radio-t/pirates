@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 114"
+
+slug: "podcast-114"
+date: 2008-11-29T16:20:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt114post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt114post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-114.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_114)<audio src="http://cdn.radio-t.com/rt114post.mp3" preload="none">

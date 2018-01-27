@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 404"
+
+slug: "podcast-404"
+date: 2014-08-09T17:24:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt404post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-404.html) <audio src="http://cdn.radio-t.com/rt404post.mp3" preload="none">

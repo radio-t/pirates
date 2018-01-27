@@ -1,0 +1,12 @@
+---
+
+title: "После РТ 559"
+
+slug: "podcast-559"
+date: 2017-08-19T18:59:00+03:00
+comments: true
+categories: podcast
+filename: rt559post
+---
+[аудио](http://cdn.radio-t.com/rt559post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-559.html)
+<audio src="http://cdn.radio-t.com/rt559post.mp3" preload="none"/>

@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 101"
+
+slug: "podcast-101"
+date: 2008-08-30T17:22:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt101post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt101post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-101.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_101)<audio src="http://cdn.radio-t.com/rt101post.mp3" preload="none">

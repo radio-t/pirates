@@ -1,0 +1,13 @@
+---
+
+title: "После РТ 430"
+
+slug: "podcast-430"
+date: 2015-02-07T17:50:00+03:00
+comments: true
+categories: podcast
+filename: rt430post
+---
+[аудио](http://cdn.radio-t.com/rt430post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-430.html)
+<audio src="http://cdn.radio-t.com/rt430post.mp3" preload="none"></audio>
+

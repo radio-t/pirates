@@ -1,0 +1,16 @@
+<div>
+
+
+<!-- <script src="{{ "dist/app.bundle.js" | absURL }}" async></script> -->
+
+
+
+{{ block "disqus" . }}{{ partial "ext/disqus.html" }}{{ end }}
+{{ block "facebook_like" . }}{{ partial "ext/facebook_like.html" }}{{ end }}
+{{ block "google_plus_one" . }}{{ partial "ext/google_plus_one.html" }}{{ end }}
+{{ block "twitter_sharing" . }}{{ partial "ext/twitter_sharing.html" }}{{ end }}
+
+{{ block "google_analytics" . }}{{ partial "ext/google_analytics.html" }}{{ end }}
+
+
+</div>

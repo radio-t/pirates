@@ -1,0 +1,10 @@
+---
+
+title: "После РТ 107"
+
+slug: "podcast-107"
+date: 2008-10-11T17:38:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rt107post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt107post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-107.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_107)<audio src="http://cdn.radio-t.com/rt107post.mp3" preload="none">

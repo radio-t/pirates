@@ -1,0 +1,12 @@
+---
+
+title: "После РТ 537"
+
+slug: "podcast-537"
+date: 2017-03-11T16:59:00+03:00
+comments: true
+categories: podcast
+filename: rt537post
+---
+[аудио](http://cdn.radio-t.com/rt537post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-537.html)
+<audio src="http://cdn.radio-t.com/rt537post.mp3" preload="none"/>

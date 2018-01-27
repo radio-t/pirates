@@ -1,0 +1,13 @@
+---
+
+title: "После РТ 517"
+
+slug: "podcast-517"
+date: 2016-10-15T19:01:00+03:00
+comments: true
+categories: podcast
+filename: rt517post
+---
+[аудио](http://cdn.radio-t.com/rt517post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-517.html)
+<audio src="http://cdn.radio-t.com/rt517post.mp3" preload="none"/>
+

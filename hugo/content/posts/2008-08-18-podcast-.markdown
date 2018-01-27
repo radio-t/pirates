@@ -1,0 +1,10 @@
+---
+
+title: "После РТ"
+
+slug: "podcast-"
+date: 2008-08-18T08:03:00+03:00
+comments: true
+categories: podcast
+---
+[аудио](http://cdn.radio-t.com/rtpost.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rtpost.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_)<audio src="http://cdn.radio-t.com/rtpost.mp3" preload="none">

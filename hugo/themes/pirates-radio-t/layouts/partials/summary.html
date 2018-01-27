@@ -1,0 +1,14 @@
+<article>
+  <header>
+    <h1 class="entry-title">
+      <a href="{{ .URL }}" class="link black dim" style="margin:0; padding:0; text-align:left; position:relative; display:block">{{ .Title }}</a>
+    </h1>
+    <p class="meta">
+      <time datetime="{{ dateFormat "2006-01-02T13:59:59+00:00" .Date }}" pubdate="" data-updated="true">
+        {{ dateFormat "Jan 2, 2006" .Date }} - {{.Date.Unix}}
+      </time>
+       | <a href="{{ .URL }}#disqus_thread"></a>
+    </p>
+  </header>
+    {{ .Content }}
+</article>

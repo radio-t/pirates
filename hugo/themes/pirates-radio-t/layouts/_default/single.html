@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="blog-index">
+
+    <article>
+      <header>
+        <h1 class="entry-title">
+          <a href="{{ .URL }}" class="link black dim" style="margin:0; padding:0; text-align:left; position:relative; display:block">{{ .Title }}</a>
+        </h1>
+        <p class="meta">
+          <time datetime="{{ dateFormat "2006-01-02T13:59:59+00:00" .Date }}" pubdate="" data-updated="true">
+            {{ dateFormat "Jan 2, 2006" .Date }} - {{.Date.Unix}}
+          </time>
+           <!-- | <a href="{{ .Permalink }}#disqus_thread">Comments</a> -->
+        </p>
+      </header>
+        {{ .Content }}
+
+
+
+
+          <div class="sharing">
+            {{ if $.Site.Params.twitter_tweet_button }}
+            <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ .Permalink }}" data-via="{{ $.Site.Params.twitter_user }}" data-counturl="{{ .Permalink }}" >Tweet</a>
+            {{ end }}
+            {{ if $.Site.Params.google_plus_one }}
+            <div class="g-plusone" data-size="{{ $.Site.Params.google_plus_one_size }}"></div>
+            {{ end }}
+            {{ if $.Site.Params.facebook_like }}
+              <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+            {{ end }}
+          </div>
+
+
+
+        {{ template "_internal/disqus.html" . }}
+    </article>
+
+
+</div>
+{{ end }}

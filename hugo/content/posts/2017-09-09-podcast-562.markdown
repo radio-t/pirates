@@ -1,0 +1,12 @@
+---
+
+title: "После РТ 562"
+
+slug: "podcast-562"
+date: 2017-09-09T18:59:00+03:00
+comments: true
+categories: podcast
+filename: rt562post
+---
+[аудио](http://cdn.radio-t.com/rt562post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-562.html)
+<audio src="http://cdn.radio-t.com/rt562post.mp3" preload="none"/>

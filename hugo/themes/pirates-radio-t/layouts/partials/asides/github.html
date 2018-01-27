@@ -1,0 +1,30 @@
+{{ if $.Site.Params.github_user }}
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  {{ if $.Site.Params.github_show_profile_link }}
+  <a href="https://github.com/{{$.Site.Params.github_user}}">@{{$.Site.Params.github_user}}</a> on GitHub
+  {{ end }}
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '{{ "javascripts/libs/jXHR.js" | absURL}}';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: '{{$.Site.Params.github_user}}',
+            count: {{$.Site.Params.github_repo_count}},
+            skip_forks: {{$.Site.Params.github_skip_forks}},
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src='{{ "javascripts/github.js" | absURL }}' type="text/javascript"> </script>
+</section>
+{{ end }}
