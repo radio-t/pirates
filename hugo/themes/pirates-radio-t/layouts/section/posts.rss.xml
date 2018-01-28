@@ -4,7 +4,7 @@
 <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
 <id>{{  .Site.BaseURL  }}</id>
 <author>
-    <name>Umputun  Bobuk  Ksenks  Grаy</name>
+    <name>Umputun Bobuk  Ksenks  Grаy</name>
 </author>
 <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
 <language>ru</language>
