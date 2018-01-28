@@ -1,8 +1,0 @@
----
-layout: post
-title: После РТ 214
-date: 2010-11-20 13:56
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt214post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt214post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-214.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_214)<audio src="http://cdn.radio-t.com/rt214post.mp3" preload="none">

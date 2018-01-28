@@ -1,8 +1,0 @@
----
-layout: post
-title: После РТ 129
-date: 2009-03-21 18:09
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt129post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt129post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-129.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_129)<audio src="http://cdn.radio-t.com/rt129post.mp3" preload="none">

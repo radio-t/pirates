@@ -1,8 +1,0 @@
----
-layout: post
-title: "После РT 415"
-date: 2014-10-26 00:57
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt415post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-415.html) <audio src="http://cdn.radio-t.com/rt415post.mp3" preload="none">

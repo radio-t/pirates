@@ -1,0 +1,10 @@
+pipeline:
+  
+  docker:
+    image: plugins/docker
+    repo: umputun/pirates-rt
+    secrets: [ docker_username, docker_password ]
+    tags: 
+      - latest
+    when:
+      branch: master

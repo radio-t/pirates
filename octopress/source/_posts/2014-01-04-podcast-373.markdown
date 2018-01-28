@@ -1,8 +1,0 @@
----
-layout: post
-title: "После РT 373"
-date: 2014-01-04 18:33
-comments: true
-categories: podcast 
----
-[аудио](http://cdn.radio-t.com/rt373post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-373.html) <audio src="http://cdn.radio-t.com/rt373post.mp3" preload="none">
