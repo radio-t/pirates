@@ -1,8 +1,0 @@
----
-layout: post
-title: После РТ 111
-date: 2008-11-08 19:09
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt111post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt111post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-111.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_111)<audio src="http://cdn.radio-t.com/rt111post.mp3" preload="none">

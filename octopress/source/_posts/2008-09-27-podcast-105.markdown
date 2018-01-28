@@ -1,8 +1,0 @@
----
-layout: post
-title: После РТ 105
-date: 2008-09-27 16:40
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt105post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt105post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-105.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_105)<audio src="http://cdn.radio-t.com/rt105post.mp3" preload="none">

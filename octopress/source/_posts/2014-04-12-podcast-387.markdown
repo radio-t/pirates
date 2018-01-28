@@ -1,8 +1,0 @@
----
-layout: post
-title: "После РT 387"
-date: 2014-04-12 17:21
-comments: true
-categories: podcast 
----
-[аудио](http://cdn.radio-t.com/rt387post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-387.html) <audio src="http://cdn.radio-t.com/rt387post.mp3" preload="none">

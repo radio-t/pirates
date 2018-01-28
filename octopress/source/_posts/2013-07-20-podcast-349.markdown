@@ -1,9 +1,0 @@
----
-layout: post
-title: "После РT 349"
-date: 2013-07-20 18:47
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt349post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-349.html)
-<audio src="http://cdn.radio-t.com/rt349post.mp3" preload="none">

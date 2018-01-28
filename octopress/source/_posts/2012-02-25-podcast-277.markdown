@@ -1,8 +1,0 @@
----
-layout: post
-title: После РТ 277
-date: 2012-02-25 17:30
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt277post.mp3) ● [пиратский torrent](http://pirates.radio-t.com/torrents/rt277post.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-277.html) ● [wiki](http://wiki.radio-t.com/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5_%D0%A0%D0%A2_277)<audio src="http://cdn.radio-t.com/rt277post.mp3" preload="none">

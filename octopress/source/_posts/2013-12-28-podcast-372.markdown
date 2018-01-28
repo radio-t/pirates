@@ -1,8 +1,0 @@
----
-layout: post
-title: "После РT 372"
-date: 2013-12-28 16:35
-comments: true
-categories: podcast
----
-[аудио](http://cdn.radio-t.com/rt372post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-372.html) <audio src="http://cdn.radio-t.com/rt372post.mp3" preload="none">
