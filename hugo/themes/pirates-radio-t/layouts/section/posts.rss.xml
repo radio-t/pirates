@@ -1,21 +1,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
-<title>{{ .Site.Title }}</title>
-<link href="{{  .Site.BaseURL  }}" />
-<updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
-<id>{{  .Site.BaseURL  }}</id>
-<author>
-    <name>Umputun Bobuk  Ksenks  Grаy</name>
-</author>
-<generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-<language>ru</language>
-<description>Пираты Радио-Т</description>{{ end }}
-{{ range .Data.Pages }}
-<entry>
-    <title type="html">{{ .Title }}</title>
-    <link href="{{ strings.TrimSuffix "/" .Permalink  }}" />
-    <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
-    <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-    <content>{{chomp "<![CDATA[\n"}}{{ .Content | safeHTML }}{{chomp "]]>\n"}}</content>
-</entry>
-{{ end }}
+  <title>{{ .Site.Title}}</title>
+  <link href="http://pirates.radio-t.com/posts/index.xml" rel="self"/>
+  <link href="{{  .Site.BaseURL  }}"/>
+  <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
+  <id>{{ .Site.BaseURL }}</id>
+  <author>
+    <name>{{chomp "<![CDATA[\n"}}Umputun Bobuk Ksenks Grаy{{chomp "]]>\n"}}</name>
+  </author>
+  <generator>Hugo</generator>
+  <language>ru</language>
+  <description>Пираты Радио-Т</description>
+  {{ range .Data.Pages }}
+    <entry>
+      <title type="html">{{ .Title }}</title>
+      <link href="{{ strings.TrimSuffix " /" .Permalink  }}"/>
+      <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
+      <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
+      <content type="html">{{chomp "<![CDATA[\n"}}{{ .Content | safeHTML }}{{chomp "]]>\n"}}</content>
+    </entry>
+  {{ end }}
 </feed>
