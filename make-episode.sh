@@ -1,13 +1,13 @@
 #!/bin/sh
 
-if [ "$#" -eq 0 ]; then
-    echo "no post number passed"
-    exit
-fi
-
+post=$1
 today=$(date +%Y-%m-%d)
 hhmmss=$(date +%H:%M:%S)
-post=$1
+
+if [ "$#" -eq 0 ]; then
+    echo "no post number passed, using info from radio-t.com"
+    post=./utils/get-next-rt.py
+fi
 
 if [ "$#" -eq 2 ]; then
     echo "date defined as $2"
