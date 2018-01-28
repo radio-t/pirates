@@ -10,7 +10,7 @@ title = "Пираты Радио-Т - послешоу подкаста"
 theme = "pirates-radio-t"
 publishDir = "public"
 
-rssLimit = "10"
+rssLimit = "15"
 disqusShortname = "pirates-radio-t"
 
 [permalinks]
