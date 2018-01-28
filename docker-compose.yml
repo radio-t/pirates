@@ -2,7 +2,6 @@ version: '2'
 services:
   hugo:
     image: umputun/pirates-t
-    build: build
     logging: 
       driver: json-file
       options:
