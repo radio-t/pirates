@@ -1,21 +1,22 @@
-<feed version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <title>{{ .Site.Title }}</title>
-    <link>{{  .Site.BaseURL  }}</link>
-    <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
-    <id>{{  .Site.BaseURL  }}</id>
-    <author>
-      <name>Umputun  Bobuk  Ksenks  Grаy</name>
-    </author>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <description>Пираты Радио-Т</description>{{ end }}
-    {{ range .Data.Pages }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ .Site.Title}}</title>
+  <link href="http://pirates.radio-t.com/posts/index.xml" rel="self"/>
+  <link href="{{  .Site.BaseURL  }}"/>
+  <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
+  <id>{{ .Site.BaseURL }}</id>
+  <author>
+    <name>{{chomp "<![CDATA[\n"}}Umputun Bobuk Ksenks Grаy{{chomp "]]>\n"}}</name>
+  </author>
+  <generator>Hugo</generator>
+  <language>ru</language>
+  <description>Пираты Радио-Т</description>
+  {{ range .Data.Pages }}
     <entry>
       <title type="html">{{ .Title }}</title>
-      <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
-      <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
+      <link href="{{ strings.TrimSuffix " /" .Permalink  }}"/>
+      <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
       <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-      <content type="html">{{ .Content  }}</content>
+      <content type="html">{{chomp "<![CDATA[\n"}}{{ .Content | safeHTML }}{{chomp "]]>\n"}}</content>
     </entry>
-    {{ end }}
+  {{ end }}
 </feed>
