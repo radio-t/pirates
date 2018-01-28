@@ -15,7 +15,7 @@
       <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
       <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
       <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-      <content type="html">{{ .Content  }}</content>
+      <content type="html"><![CDATA[{{ .Content  }}]></content>
     </entry>
     {{ end }}
 </feed>
