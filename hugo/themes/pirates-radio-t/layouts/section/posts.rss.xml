@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
@@ -17,11 +17,9 @@
     <entry>
       <title>{{ .Title }}</title>
       <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid isPermaLink="false">{{ strings.TrimSuffix "/" .Permalink  }}</guid>
-      <content>{{ .Content | html }}</content>
+      <updated>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</updated>
+      <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
+      <content type="html">{{ .Content | html }}</content>
     </entry>
     {{ end }}
-  </channel>
-</rss>
+</feed>
