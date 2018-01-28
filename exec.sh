@@ -1,4 +1,4 @@
 #!/bin/sh
 echo " === generate pages ==="
 cd /srv/hugo
-hugo
+hugo -v
