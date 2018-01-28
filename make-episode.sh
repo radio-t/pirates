@@ -37,8 +37,9 @@ echo "[аудио](http://cdn.radio-t.com/rt${post}post.mp3) ● [лог чат�
 echo "<audio src=\"http://cdn.radio-t.com/rt${post}post.mp3\" preload=\"none\"></audio>" >> ${outfile}
 
 echo "deploy"
+git add ${outfile}
 cd ..
-git commit -a -m "auto commit new episode #${post}" && git push
+git commit -a -m "auto commit new episode ${post}" && git push
 ssh master.radio-t.com "cd /srv/pirates && git pull && docker-compose run hugo"
 
 echo "all done for ${post}"
