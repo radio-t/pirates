@@ -57,7 +57,7 @@
 
     {{ block "google-analytics" . }}{{ partial "ext/google_analytics.html" . }}{{ end }}
 
-
+    <script id="dsq-count-scr" src="//pirates-radio-t.disqus.com/count.js" async></script>
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
@@ -88,7 +88,6 @@
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
 
 
-    <script id="dsq-count-scr" src="//pirates-radio-t.disqus.com/count.js" async></script>
 
   </body>
 </html>
