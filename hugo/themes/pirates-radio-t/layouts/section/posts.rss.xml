@@ -1,23 +1,21 @@
 <feed xmlns:atom="http://www.w3.org/2005/Atom">
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
-    <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
-    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <title version="2.0" type="html">{{ .Site.Title }}</title>
+    <link>{{  .Site.BaseURL  }}</link>
+    <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
+    <id>{{  .Site.BaseURL  }}</id>
+    <author>
+      <name>Umputun  Bobuk  Ksenks  Grаy</name>
+    </author>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-    <author>Umputun / Bobuk / Ksenks / Grаy</author>
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-
+    <description>Пираты Радио-Т</description>{{ end }}
     {{ range .Data.Pages }}
     <entry>
-      <title>{{ .Title }}</title>
+      <title type="html">{{ .Title }}</title>
       <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
-      <updated>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</updated>
+      <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
       <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-      <content> <![CDATA[{{ .Content }}]> </content>
+      <content type="html">{{ .Content  }}</content>
     </entry>
     {{ end }}
-
 </feed>
