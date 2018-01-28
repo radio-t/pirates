@@ -1,21 +1,21 @@
-<feed xmlns:atom="http://www.w3.org/2005/Atom">
-    <title version="2.0" type="html">{{ .Site.Title }}</title>
-    <link>{{  .Site.BaseURL  }}</link>
-    <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
-    <id>{{  .Site.BaseURL  }}</id>
-    <author>
-      <name>Umputun  Bobuk  Ksenks  Grаy</name>
-    </author>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <description>Пираты Радио-Т</description>{{ end }}
-    {{ range .Data.Pages }}
-    <entry>
-      <title type="html">{{ .Title }}</title>
-      <link>{{ strings.TrimSuffix "/" .Permalink  }}</link>
-      <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
-      <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-      <content type="html"><![CDATA[{{ .Content  }}]></content>
-    </entry>
-    {{ end }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>{{ .Site.Title }}</title>
+<link href="{{  .Site.BaseURL  }}" />
+<updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
+<id>{{  .Site.BaseURL  }}</id>
+<author>
+    <name>Umputun  Bobuk  Ksenks  Grаy</name>
+</author>
+<generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+<language>ru</language>
+<description>Пираты Радио-Т</description>{{ end }}
+{{ range .Data.Pages }}
+<entry>
+    <title type="html">{{ .Title }}</title>
+    <link href="{{ strings.TrimSuffix "/" .Permalink  }}" />
+    <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
+    <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
+    <content>{{chomp "<![CDATA[\n"}}{{ .Content | safeHTML }}{{chomp "]]>\n"}}</content>
+</entry>
+{{ end }}
 </feed>
