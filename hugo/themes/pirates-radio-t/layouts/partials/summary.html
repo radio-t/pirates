@@ -7,7 +7,7 @@
       <time datetime="{{ dateFormat "2006-01-02T13:59:59+00:00" .Date }}" pubdate="" data-updated="true">
         {{ dateFormat "Jan 2, 2006" .Date }} - {{.Date.Unix}}
       </time>
-       | <a href="{{ .Permalink }}#disqus_thread" data-disqus-identifier="{{ .Permalink }}#disqus_thread"></a>
+       | <a href="http://pirates.radio-t.com{{ .URL }}#disqus_thread"></a>
     </p>
   </header>
     {{ .Content }}
