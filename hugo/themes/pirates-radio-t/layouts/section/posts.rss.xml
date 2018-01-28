@@ -1,5 +1,5 @@
-<feed xmlns:atom="http://www.w3.org/2005/Atom">
-    <title version="2.0" type="html">{{ .Site.Title }}</title>
+<feed version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <title>{{ .Site.Title }}</title>
     <link>{{  .Site.BaseURL  }}</link>
     <updated>{{.Date.Format "2018-01-14T22:29:56+00:00"  | safeHTML}}</updated>
     <id>{{  .Site.BaseURL  }}</id>
