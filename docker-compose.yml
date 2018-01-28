@@ -1,7 +1,7 @@
 version: '2'
 services:
   hugo:
-    image: umputun/pirates-t
+    image: umputun/pirates-rt
     logging: 
       driver: json-file
       options:
