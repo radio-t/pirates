@@ -7,5 +7,5 @@ categories: podcast
 filename: rt579post
 ---
 
-[аудио](http://archive.rucast.net/pirates/media/rt579post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-579.html)
-<audio src="http://archive.rucast.net/pirates/media/rt579post.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt579post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-579.html)
+<audio src="http://cdn.radio-t.com/rt579post.mp3" preload="none"></audio>
