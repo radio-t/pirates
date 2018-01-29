@@ -16,7 +16,7 @@
       <link href="{{ strings.TrimSuffix " /" .Permalink  }}"/>
       <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
       <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-      <content type="html">{{chomp "<![CDATA[\n"}}{{ .Content | safeHTML }}{{chomp "]]>\n"}}</content>
+      <content:encoded>{{ htmlUnescape .Content | safeHTML }}</content:encoded>
     </entry>
   {{ end }}
 </feed>
