@@ -5,8 +5,9 @@
   <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
   <id>{{ .Site.BaseURL }}</id>
   <author>
-    <name>{{chomp "<![CDATA[\n"}}Umputun Bobuk Ksenks Grаy{{chomp "]]>\n"}}</name>
+    <name>{{ htmlUnescape "<![CDATA[" | safeHTML }}Umputun, Bobuk, Ksenks, Grаy]]></name>
   </author>
+ 
   <generator>Hugo</generator>
   <language>ru</language>
   <description>Пираты Радио-Т</description>
@@ -16,7 +17,7 @@
       <link href="{{ strings.TrimSuffix " /" .Permalink  }}"/>
       <updated>{{.Date.Format "2006-01-02T15:04:05Z-0700" | safeHTML}}</updated>
       <id>{{ strings.TrimSuffix "/" .Permalink  }}</id>
-      <content>{{ htmlUnescape .Content | html }}</content>
+      <content>{{ htmlUnescape "<![CDATA["  | safeHTML }} {{ htmlUnescape .Content | safeHTML }}]]></content>
     </entry>
   {{ end }}
 </feed>
