@@ -1,0 +1,11 @@
+---
+title: "После РТ 627"
+date: 2018-12-08T22:31:35-05:00
+slug: "podcast-627"
+comments: true
+categories: podcast
+filename: rt627post
+---
+
+[аудио](http://cdn.radio-t.com/rt627post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-627.html)
+<audio src="http://cdn.radio-t.com/rt627post.mp3" preload="none"></audio>
