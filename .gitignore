@@ -14,3 +14,4 @@ node_modules
 /public
 /hugo/public
 *.pyc
+.idea/

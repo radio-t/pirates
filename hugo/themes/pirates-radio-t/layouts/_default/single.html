@@ -10,7 +10,6 @@
           <time datetime="{{ dateFormat "2006-01-02T13:59:59+00:00" .Date }}" pubdate="" data-updated="true">
             {{ dateFormat "Jan 2, 2006" .Date }} - {{.Date.Unix}}
           </time>
-           <!-- | <a href="{{ .Permalink }}#disqus_thread">Comments</a> -->
         </p>
       </header>
         {{ .Content }}
@@ -32,7 +31,12 @@
 
 
 
-        {{ template "_internal/disqus.html" . }}
+          <div id="remark42">
+            <noscript>
+              Please enable JavaScript to view the comments powered by Remark42.
+            </noscript>
+          </div>
+
     </article>
 
 

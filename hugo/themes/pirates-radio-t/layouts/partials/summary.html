@@ -8,7 +8,7 @@
         {{ dateFormat "Jan 2, 2006" .Date }} - {{.Date.Unix}}
       </time>
 
-       | <a href="http://pirates.radio-t.com{{ .URL }}#disqus_thread"></a>
+       | <a href="{{ .Permalink }}#remark42"><span class="remark42__counter" data-url="{{ .Permalink }}"></span> comments</a>
 
     </p>
   </header>
