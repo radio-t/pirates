@@ -31,3 +31,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     left: 0;
     background-color: #c8c8c8;
 }
+
+.remark42__last-comments article {
+    padding-top: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+    .remark42__last-comments article {
+        margin-top: -10px;
+    }
+}
