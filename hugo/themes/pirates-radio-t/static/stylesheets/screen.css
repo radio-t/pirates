@@ -43,6 +43,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 /* OVERRIDE REMARK42 STYLES */
-#remark42 .comment_view_preview .comment__username {
+#remark42 .comment_view_preview .comment__username,
+#remark42 .comment_view_preview .comment__title-link {
     color: #596f97 !important;
 }
