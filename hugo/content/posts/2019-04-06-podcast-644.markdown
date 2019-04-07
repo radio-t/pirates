@@ -1,0 +1,11 @@
+---
+title: "После РТ 644"
+date: 2019-04-06T19:26:27-05:00
+slug: "podcast-644"
+comments: true
+categories: podcast
+filename: rt644post
+---
+
+[аудио](http://cdn.radio-t.com/rt644post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-644.html)
+<audio src="http://cdn.radio-t.com/rt644post.mp3" preload="none"></audio>

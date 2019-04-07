@@ -6,7 +6,7 @@ hhmmss=$(date +%H:%M:%S)
 
 if [ "$#" -eq 0 ]; then
     echo "no post number passed, using info from radio-t.com"
-    post=./utils/get-next-rt.py
+    post=$(./utils/get-next-rt.py)
 fi
 
 if [ "$#" -eq 2 ]; then
