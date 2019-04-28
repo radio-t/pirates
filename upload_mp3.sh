@@ -29,7 +29,7 @@ ${notif} -title PodPrc -message "copy to hp-usrv archives"
 scp -P 2222 $1 umputun@192.168.1.24:/data/archive.rucast.net/pirates/media/
 
 echo "upload to archive site"
-${lftp} -u ${PODCAST_ARCHIVE_CREDS} sftp://5.9.111.214 -e "debug 3; cd pirates/media; put $1; exit"
+scp $1 umputun@master.radio-t.com:/data/archive/pirates/media/${fname}
 
 echo "all done for $fname"
 ${notif} -title PodPrc -message "all done for $fname"
