@@ -4,6 +4,10 @@ post=$1
 today=$(date +%Y-%m-%d)
 hhmmss=$(date +%H:%M:%S)
 
+currdir=$(dirname $0)
+cd ${currdir}
+echo "current dir=$currdir"
+
 if [ "$#" -eq 0 ]; then
     echo "no post number passed, using info from radio-t.com"
     post=$(./utils/get-next-rt.py)
