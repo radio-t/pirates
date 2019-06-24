@@ -7,5 +7,6 @@ categories: podcast
 filename: rtpost
 ---
 
+
 [аудио](http://cdn.radio-t.com/rt655post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-655.html)
 <audio src="http://cdn.radio-t.com/rt655post.mp3" preload="none"></audio>
