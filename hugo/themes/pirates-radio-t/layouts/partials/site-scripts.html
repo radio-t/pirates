@@ -1,8 +1,5 @@
 <div>
 
-
-<!-- <script src="{{ "dist/app.bundle.js" | absURL }}" async></script> -->
-
 {{ if or (eq .URL "/") (eq (substr .URL 0 3) "/p/") }}
   <script>
     var remark_config = {
@@ -41,7 +38,7 @@
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'https://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script><script type="text/javascript">
