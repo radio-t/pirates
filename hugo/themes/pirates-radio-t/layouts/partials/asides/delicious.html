@@ -2,7 +2,7 @@
 <section>
   <h1>On Delicious</h1>
   <div id="delicious"></div>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/{{ $.Site.Params.delicious_user }}?count={{ $.Site.Params.delicious_count }}&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
-  <p><a href="http://delicious.com/{{ $.Site.Params.delicious_user }}">My Delicious Bookmarks &raquo;</a></p>
+  <script type="text/javascript" src="https://feeds.delicious.com/v2/json/{{ $.Site.Params.delicious_user }}?count={{ $.Site.Params.delicious_count }}&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="https://delicious.com/{{ $.Site.Params.delicious_user }}">My Delicious Bookmarks &raquo;</a></p>
 </section>
 {{ end }}
