@@ -3,7 +3,7 @@
 # ----------------------- #
 
 # baseURL = "http://localhost:1313"
-baseURL = "http://pirates.radio-t.com/"
+baseURL = "https://pirates.radio-t.com/"
 # baseURL = "http://pirates.radio-t.com"
 languageCode = "ru-ru"
 title = "Пираты Радио-Т - послешоу подкаста"
@@ -18,7 +18,7 @@ rssLimit = "15"
 [params]
 subtitle = "Вы можете услышать тут то, что происходит после сигнала \"запись шоу завершена\""
 author = "Umputun / Bobuk / Ksenks / Grаy"
-simple_search = "http://google.com/search"
+simple_search = "https://google.com/search"
 description = "Послешоу Радио-Т, подкаст-импровизации на хай-тек темы. Авторы и приглашенные гости импровизируют на околокомпьютерные темы. Как правило, не залезая в глубокие дебри, однако иногда нас заносит"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -28,7 +28,7 @@ description = "Послешоу Радио-Т, подкаст-импровиза
 date_format = "%b %d, %Y - %s"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss = "http://feeds.feedburner.com/pirate-radio-t"
+subscribe_rss = "https://feeds.feedburner.com/pirate-radio-t"
 subscribe_email = ""
 # RSS feeds can list your email address if you like
 email = ""
