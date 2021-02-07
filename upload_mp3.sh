@@ -26,7 +26,7 @@ ssh master.radio-t.com "docker exec -i ansible /srv/deploy_pirates.sh $episode"
 
 echo "copy to hp-usrv archives"
 ${notif} -title PodPrc -message "copy to hp-usrv archives"
-scp -P 2222 $1 umputun@192.168.1.24:/data/archive.rucast.net/pirates/media/
+scp -P 2222 $1 umputun@nas.umputun.com:/Podcasts/pirates/
 
 echo "upload to archive site"
 scp $1 umputun@master.radio-t.com:/data/archive/pirates/media/${fname}
