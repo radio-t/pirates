@@ -18,12 +18,12 @@
     {{ end }}
 
 
-    <link href='{{ "favicon.png" | absURL }}' rel='icon' />
-    <link href='{{ "stylesheets/screen.css" | absURL }}' rel='stylesheet' type="text/css" media="screen, projection"/>
+    <link href='{{ "favicon.png" | relURL }}' rel='icon' />
+    <link href='{{ "stylesheets/screen.css" | relURL }}' rel='stylesheet' type="text/css" media="screen, projection"/>
 
-    <script href='{{ "javascripts/modernizr-2.0.js" | absURL }}'></script>
-    <script href='{{ "javascripts/ender.js" | absURL }}'></script>
-    <script href='{{ "javascripts/octopress.js" | absURL }}'></script>
+    <script href='{{ "javascripts/modernizr-2.0.js" | relURL }}'></script>
+    <script href='{{ "javascripts/ender.js" | relURL }}'></script>
+    <script href='{{ "javascripts/octopress.js" | relURL }}'></script>
     <link href="{{ $.Site.Params.subscribe_rss }}" rel="alternate" title="{{.Site.Title}}" type="application/atom+xml">
 
     {{ block "favicon" . }}
@@ -46,7 +46,7 @@
     {{ end }}
 
 
-    <script src='{{ "assets/audiojs/audio.min.js" | absURL }}'></script>
+    <script src='{{ "assets/audiojs/audio.min.js" | relURL }}'></script>
 
     <script>
       audiojs.events.ready(function() {

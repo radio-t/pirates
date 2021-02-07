@@ -2,11 +2,11 @@
 <section>
   <h2>Наши Tweets</h2>
   <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/radio_t?ref_src=twsrc%5Etfw">Tweets by radio_t</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src='{{ "javascripts/twitter.js" | absURL }}' type="text/javascript"> </script>
+  <script src='{{ "javascripts/twitter.js" | relURL }}' type="text/javascript"> </script>
   {{ if $.Site.Params.twitter_follow_button }}
-    <a href="http://twitter.com/{{ $.Site.Params.twitter_user }}" class="twitter-follow-button" data-show-count="{{ $.Site.Params.twitter_show_follower_count }}">Follow @{{ $.Site.Params.twitter_user }}</a>
+    <a href="https://twitter.com/{{ $.Site.Params.twitter_user }}" class="twitter-follow-button" data-show-count="{{ $.Site.Params.twitter_show_follower_count }}">Follow @{{ $.Site.Params.twitter_user }}</a>
   {{ else }}
-    <p>Follow <a href="http://twitter.com/{{$.Site.Params.twitter_user}}">@{{ $.Site.Params.twitter_user }}</a></p>
+    <p>Follow <a href="https://twitter.com/{{$.Site.Params.twitter_user}}">@{{ $.Site.Params.twitter_user }}</a></p>
   {{ end }}
 </section>
 {{ end }}
