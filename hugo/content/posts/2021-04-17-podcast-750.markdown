@@ -1,0 +1,11 @@
+---
+title: "После РТ 750"
+date: 2021-04-17T19:38:10-05:00
+slug: "podcast-750"
+comments: true
+categories: podcast
+filename: rt750post
+---
+
+[аудио](http://cdn.radio-t.com/rt750post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-750.html)
+<audio src="http://cdn.radio-t.com/rt750post.mp3" preload="none"></audio>
