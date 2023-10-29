@@ -1,0 +1,11 @@
+---
+title: "После РТ 881"
+date: 2023-10-28T19:44:31-05:00
+slug: "podcast-881"
+comments: true
+categories: podcast
+filename: rt881post
+---
+
+[аудио](http://cdn.radio-t.com/rt881post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-881.html)
+<audio src="http://cdn.radio-t.com/rt881post.mp3" preload="none"></audio>
