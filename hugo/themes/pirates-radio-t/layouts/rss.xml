@@ -47,7 +47,7 @@
 
         <itunes:author>{{ .Params.author }}</itunes:author>
         <itunes:summary>{{ .Content | plainify }}</itunes:summary>
-        <itunes:image href="https://radio-t.com/images/cover.jpg" />
+        <itunes:image href="https://pirates.radio-t.com/images/pirates-logo-big.jpg" />
     </item>
     {{ end }}
   </channel>
