@@ -27,7 +27,7 @@
       <itunes:email>podcast@radio-t.com</itunes:email>
     </itunes:owner>
 
-    <itunes:image href="https://radio-t.com/images/cover.jpg" />
+    <itunes:image href="https://pirates.radio-t.com/images/pirates-logo-big.jpg" />
     <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
