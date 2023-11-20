@@ -11,7 +11,7 @@ notif="/usr/local/bin/terminal-notifier"
 
 episode=`echo $1 | sed -n 's/.*rt\(.*\)\post.mp3/\1/p'`
 ${notif} -title PodPrc -message "Radio-T detected #${episode}"
-utils/eyeD3.exec -v --remove-all --set-encoding=utf8 --album="Пираты Радио-Т" --add-image=utils/cover-p.png:FRONT_COVER: --artist="Umputun, Bobuk, Gray, Ksenks" --track=${episode} --title="Пираты Радио-Т ${episode}" --year=$(date +%Y)  --genre="Podcast" $1
+utils/eyeD3.exec -v --remove-all --set-encoding=utf8 --album="Пираты Радио-Т" --add-image=utils/cover-p.png:FRONT_COVER: --artist="Umputun, Bobuk, Gray, Ksenks, Alek.sys" --track=${episode} --title="Пираты Радио-Т ${episode}" --year=$(date +%Y)  --genre="Podcast" $1
 ${notif} -title PodPrc -message "Пираты tagged"
 
 cd ..

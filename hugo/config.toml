@@ -17,7 +17,7 @@ rssLimit = "15"
 
 [params]
 subtitle = "Вы можете услышать тут то, что происходит после сигнала \"запись шоу завершена\""
-author = "Umputun / Bobuk / Ksenks / Grаy"
+author = "Umputun / Bobuk / Ksenks / Gray / Alek.sys"
 simple_search = "https://google.com/search"
 description = "Послешоу Радио-Т, подкаст-импровизации на хай-тек темы. Авторы и приглашенные гости импровизируют на околокомпьютерные темы. Как правило, не залезая в глубокие дебри, однако иногда нас заносит"
 
