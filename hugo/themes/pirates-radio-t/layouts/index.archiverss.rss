@@ -1,0 +1,55 @@
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>Пираты Радио-Т Архивы</title>
+    <atom:link href="https://pirates.radio-t.com/podcast-archives.rss" rel="self" type="application/rss+xml" />
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <copyright>radio-t, {{ with .Site.Copyright }}{{.}}{{ end }}</copyright>
+
+    <language>ru</language>
+    <itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
+    <itunes:subtitle>{{ .Site.Params.subtitle }}</itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
+      <itunes:email>podcast@radio-t.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="https://pirates.radio-t.com/images/pirates-logo-big.jpg" />
+    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+
+    <itunes:keywords>hitech,russian,radiot,tech,news,радио-т</itunes:keywords>
+
+    {{ range (where .Site.RegularPages "Section" "posts") }}
+    {{ $num := replace .Slug "podcast-" "" }}{{ if and (hasPrefix .Slug "podcast-") (ne $num "") }}
+    <item>
+        <link>{{ .Permalink }}</link>
+        <title>{{ .Title }}</title>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        <description>авторы говорят о всяком разном, без заранее подготовленных тем</description>
+
+        <enclosure url="http://cdn.radio-t.com/rt{{ $num }}post.mp3" type="audio/mp3" length="0" />
+        <guid>{{ .Permalink }}</guid>
+
+        <itunes:author>{{ .Params.author }}</itunes:author>
+        <itunes:summary>{{ .Content | plainify }}</itunes:summary>
+        <itunes:image href="https://pirates.radio-t.com/images/pirates-logo-big.jpg" />
+    </item>{{ end }}
+    {{ end }}
+  </channel>
+</rss>

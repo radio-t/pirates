@@ -108,3 +108,17 @@ google_analytics_tracking_id = ""
 
 # Facebook Like
 facebook_like = "false"
+
+[mediaTypes]
+  [mediaTypes."application/rss"]
+    suffixes = ["rss"]
+
+[outputFormats]
+  [outputFormats.ArchiveRSS]
+    baseName = "podcast-archives"
+    mediaType = "application/rss"
+    isPlainText = false
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "ArchiveRSS"]
