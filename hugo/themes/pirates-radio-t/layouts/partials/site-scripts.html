@@ -12,9 +12,9 @@
       var baseurl = 'https://remark42.radio-t.com';
 
       {{ if eq .URL "/" }}
-      s.src = baseurl + '/web/counter.js';
+      s.src = baseurl + '/web/counter.mjs';
       {{ else if eq (substr .URL 0 3) "/p/" }}
-      s.src = baseurl + '/web/embed.js';
+      s.src = baseurl + '/web/embed.mjs';
       {{ end }}
 
       s.type = 'text/javascript';
