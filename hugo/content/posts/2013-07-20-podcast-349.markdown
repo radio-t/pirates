@@ -7,5 +7,5 @@ date: 2013-07-20T18:47:00+03:00
 comments: true
 categories: podcast
 ---
-[аудио](http://cdn.radio-t.com/rt349post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-349.html)
-<audio src="http://cdn.radio-t.com/rt349post.mp3" preload="none">
+[аудио](https://cdn.radio-t.com/rt349post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-349.html)
+<audio src="https://cdn.radio-t.com/rt349post.mp3" preload="none">

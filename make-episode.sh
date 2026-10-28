@@ -37,8 +37,8 @@ echo "filename: rt${post}post" >> ${outfile}
 echo '---' >> ${outfile}
 echo ""  >> ${outfile}
 
-echo "[аудио](http://cdn.radio-t.com/rt${post}post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-$post.html)" >> ${outfile}
-echo "<audio src=\"http://cdn.radio-t.com/rt${post}post.mp3\" preload=\"none\"></audio>" >> ${outfile}
+echo "[аудио](https://cdn.radio-t.com/rt${post}post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-$post.html)" >> ${outfile}
+echo "<audio src=\"https://cdn.radio-t.com/rt${post}post.mp3\" preload=\"none\"></audio>" >> ${outfile}
 
 echo "deploy"
 git add ${outfile}
